@@ -6,6 +6,7 @@ DirApp="/system/9191/app/"
 DirSD="/storage/9D81-6E2F/b860h/apkset/staging/"
 DirDataSD="/storage/9D81-6E2F/b860h/apkSet/settingHG/"
 DirBackup="/sdcard/bak/"
+DirUserApp="/sdcard/bak/app/"
 DirAppFirst="/system/9191/first/"
 
 DIR_PRIV="/system/priv-app/"
@@ -21,34 +22,33 @@ ApkSystem="
 ";
 
 delApk="
-AA.MNCNow_v3.3.27.apk
 PerfectPlayer_v1.4.8b3.apk
 SpeedtestbyOokla_v4.4.11.apk
 ButtonMapper_v1.29.apk
 RadioIndonesia_v4.9.13.apk
-SmartYouTubeTV_v6.17.245.apk
+SmartYouTubeTV_v6.17.419.apk
 VLC_v3.1.7.apk
-VidioTV_v1.13.0.apk
-XX1Lite_v1.0.apk
-MXPlayer_v1.16.5.apk
-WowSportsLive_v5.5.apk
+MXPlayer_v1.21.3.apk
 RedBoxTV_v1.4.apk
 LeanbackBackgroundChanger_v1.0.apk
+AptoideTV_v5.0.3.apk
+Vision+_v4.3.30.apk
+iFlix_v3.42.1.apk
 ";
 
 copyApk="
-DutaFilm_1.0.1.apk
 Perfect_Player_1.5.8.apk
-APKPure_3.17.5.apk
-Vision_4.3.45.apk
+APKPure_3.17.8.apk
+AptoideTV_5.1.1.apk
+Vision_4.3.50.apk
+iflix_3.43.1.apk
 MX_Player_1.21.5.apk
 Button_Mapper_1.40.apk
 Link2SD.apk
-HOOQ_3.13.1.apk
 Kodi_18.6.apk
 Netflix_latest.apk
 Octopus_5.3.5.apk
-Speedtest_4.5.3.apk
+Speedtest_4.5.6.apk
 Titanium_2016.apk
 UseeTV_GO_590.apk
 Viki_2.3.6.apk
@@ -57,22 +57,22 @@ chrome.work.apk
 cyberflix_3.2.2.apk
 kidyt.new.apk
 Popcorn_3.6.4.apk
-smartyt_6.17.535.apk
+smartyt_6.17.628.apk
 mobdro_2.1.64.apk
 redboxtv_v1.6.apk
+";
+
+userApp="
 cloudTV.apk
 Radio_Indonesia_4.11.0.apk
-VLC_3.2.10.apk
-VidioTV_1.19.0.work.apk
-TVPedia.apk
-F21_1.34.apk
+VLC_3.2.11.apk
 vola_spo_6.2.apk
 v5live.apk
 TVTapPro_2.2.apk
 movielite_1.0.apk
 NF21_3.3.apk
+nordVPN_4.5.3.apk
 ";
-
 appFirst="
 Perfect_Player_1.5.6.apk
 ";
@@ -258,27 +258,7 @@ doInstalawal(){
 }
 
 # copy data setting apk dari sdcard ke internal
-doCopyDataApk(){
-  # copy ke internal
-  echo "do --> cp -r $DirDataSD bak/  /sdcard/"
-  cp -r $DirDataSD"bak/"  /sdcard/
-  
-  # copy kode aktivasi ke internal
-  echo "do --> mv /sdcard/Download/Kode_Aktivasi.txt $DirBackup"
-  mv /sdcard/Download/Kode_Aktivasi.txt $DirBackup
-  
-  #copy ke system biar tidak kehapus
-  echo "do -->  cp -r /sdcard/bak/ /system/"
-  cp -r $DirBackup /system/
-  
-  echo "do -->  cp -r $DirDataSD dataApk/  $DirBackup"
-  cp -r $DirDataSD"dataApk/"  $DirBackup
-  
-  #copy script 680 setup ke /system/bin
-  cp $DirBackup"hgSetup.sh" /system/bin/680
-  #set permission
-  chmod 755 /system/bin/680
-}
+
 doCopyDataApk(){
   # copy ke internal
   echo "do --> cp -r $DirDataSD bak/  /sdcard/"
@@ -300,7 +280,7 @@ doCopyDataApk(){
   #set permission
   
   # inect script 680
-  cp /sdcard/hgSetupA2.2r1.sh /system/bin/680
+  cp /sdcard/hgSetupA2.3.sh /system/bin/680
   chmod 755 /system/bin/680
 }
 
@@ -363,6 +343,27 @@ doInstallAppSystem(){
  done
 }
 
+doCopyUserApp(){
+  for iapk in $userApp; do
+      echo "do --> cp $DirSD$iapk $DirUserApp"
+	  cp $DirSD$iapk $DirUserApp
+  done
+}
+
+doInstallUserApp(){
+  #create dir app/first
+  mkdir $DirUserApp
+  for iapk in $userApp; do
+	  #install 
+	  echo "Installing file : $DirUserApp$iapk" 
+	  pm install -r $DirUserApp$iapk 
+	  
+	  #delete file
+	  rm $DirUserApp$iapk 
+  done
+
+}
+
  doPrepareSetup(){
     doDelApk
 	doInstallAppSystem
@@ -372,6 +373,7 @@ doInstallAppSystem(){
 	doInstalawal
 	doCopyApk
 	doCopyDataApk
+	doCopyUserApp
 	doSettingDisplay
 	doGrantPermissionGMS
 	doGrantPermissionDejavu
@@ -574,6 +576,8 @@ doInstallAppSystem(){
  
  # finishing after do command 9191
  Finishing(){
+   # install dulu user app
+   doInstallUserApp
    doGrantAllApp
    doPatchingApp
    # do cosmetic
