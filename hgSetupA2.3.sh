@@ -34,11 +34,12 @@ LeanbackBackgroundChanger_v1.0.apk
 AptoideTV_v5.0.3.apk
 Vision+_v4.3.30.apk
 iFlix_v3.42.1.apk
+LiveNetTV_v4.7.apk
 ";
 
 copyApk="
 Perfect_Player_1.5.8.apk
-APKPure_3.17.8.apk
+APKPure_3.17.9.apk
 AptoideTV_5.1.1.apk
 Vision_4.3.50.apk
 iflix_3.43.1.apk
@@ -57,9 +58,10 @@ chrome.work.apk
 cyberflix_3.2.2.apk
 kidyt.new.apk
 Popcorn_3.6.4.apk
-smartyt_6.17.628.apk
+smartyt_6.17.685.apk
 mobdro_2.1.64.apk
 redboxtv_v1.6.apk
+LiveNetTV_4.7.4.apk
 ";
 
 userApp="
@@ -68,7 +70,7 @@ Radio_Indonesia_4.11.0.apk
 VLC_3.2.11.apk
 vola_spo_6.2.apk
 v5live.apk
-TVTapPro_2.2.apk
+tvtap_2.4.apk
 movielite_1.0.apk
 NF21_3.3.apk
 nordVPN_4.5.3.apk
