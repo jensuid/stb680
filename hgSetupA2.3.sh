@@ -58,7 +58,7 @@ chrome.work.apk
 cyberflix_3.2.2.apk
 kidyt.new.apk
 Popcorn_3.6.4.apk
-smartyt_6.17.692.apk
+smartyt_6.17.697.apk
 mobdro_2.1.64.apk
 redboxtv_v1.6.apk
 LiveNetTV_4.7.4.apk
@@ -71,9 +71,11 @@ VLC_3.2.11.apk
 vola_spo_6.5.apk
 v5live.apk
 tvtap_2.5.apk
-movielite_1.0.apk
 NF21_3.3.apk
 nordVPN_4.5.3.apk
+freeMovies_3.1.apk
+ZalTV_1.2.5.apk
+mkctv.apk
 ";
 appFirst="
 Perfect_Player_1.5.6.apk
@@ -127,11 +129,12 @@ V5live=com.eletech.fastv/com.cloudtv.anyview.LoadingActivity
 RedboxTV=com.redstream.app/.activities.SplashActivity
 cyberflix=com.cybermedia.cyberflx/com.cybermedia.cyberflix.ui.activity.HomeActivity
 titanium=com.noname.titanium/.ui.activity.HomeActivity
-LiveNetTV=com.lnt.androidnettv/.MainActivity
+LiveNetTV=com.core.lntmobile/.activities.SplashActivity
 SmartYouTube=com.liskovsoft.videomanager/com.liskovsoft.smartyoutubetv.flavors.xwalk.SmartYouTubeTV1080AltActivity
 YouTubeKids=com.liskovsoft.videomanager.kids/com.liskovsoft.smartyoutubetv.flavors.xwalk.SmartYouTubeTV1080AltActivity
 MNCNow=com.zte.iptvclient.android.idmnc/.mvp.splashscreenv2.SplashScreenActivity
-NF21=id.nf21.rbn1/.activities.Splash
+NF21mkctv=com.fikrul.mkctv/.presentation.view.activity.StartupActivity=id.nf21.rbn1/.activities.Splash
+ZalTV=com.player.zaltv/.presentation.view.activity.StartupActivity
 ";
 
 PKG_TEST="
