@@ -70,7 +70,7 @@ Radio_Indonesia_4.11.0.apk
 VLC_3.2.11.apk
 vola_spo_6.2.apk
 v5live.apk
-tvtap_2.4.apk
+tvtap_2.5.apk
 movielite_1.0.apk
 NF21_3.3.apk
 nordVPN_4.5.3.apk
