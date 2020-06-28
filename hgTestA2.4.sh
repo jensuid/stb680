@@ -83,8 +83,6 @@ Perfect_Player_1.5.6.apk
 delPKG="
   PulpstoneTvLauncher
   PulpstoneWizard
-  AppDrawer
-  LeanbackLauncher
   PulpstoneMerahPutih
   pulpstone.atv.xx1lite
   com.danielgauci.tvboot
