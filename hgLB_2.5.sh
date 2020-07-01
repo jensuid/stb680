@@ -270,7 +270,7 @@ doCopyDataApk(){
   #set permission
   
   # inect script 680
-  cp /sdcard/hgSetupA2.3.sh /system/bin/680
+  cp /sdcard/hgSetup.sh /system/bin/680
   chmod 755 /system/bin/680
 }
 
