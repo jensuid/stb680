@@ -119,8 +119,9 @@ LiveNetTV=com.core.lntmobile/.activities.SplashActivity
 SmartYouTube=com.liskovsoft.videomanager/com.liskovsoft.smartyoutubetv.flavors.xwalk.SmartYouTubeTV1080AltActivity
 YouTubeKids=com.liskovsoft.videomanager.kids/com.liskovsoft.smartyoutubetv.flavors.xwalk.SmartYouTubeTV1080AltActivity
 MNCNow=com.zte.iptvclient.android.idmnc/.mvp.splashscreenv2.SplashScreenActivity
-NF21mkctv=com.fikrul.mkctv/.presentation.view.activity.StartupActivity=id.nf21.rbn1/.activities.Splash
 ZalTV=com.player.zaltv/.presentation.view.activity.StartupActivity
+NF21=id.nf21.rbn1/.activities.Splash
+mkctv=com.fikrul.mkctv/.presentation.view.activity.StartupActivity
 ";
 
 PKG_TEST="
