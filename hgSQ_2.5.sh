@@ -27,9 +27,11 @@ RadioIndonesia_v4.9.13.apk
 VLC_v3.1.7.apk
 AptoideTV_v5.0.3.apk
 iFlix_v3.46.apk
+SmartYouTubeTV_v6.17.697.apk
 ";
 
 copyApk="
+smartyt_6.17.702.apk
 Perfect_Player_1.5.8.apk
 APKPure_3.17.9.apk
 AptoideTV_5.1.1.apk
