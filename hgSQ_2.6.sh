@@ -51,7 +51,6 @@ mobdro_2.1.64.apk
 
 userApp="
 cloudTV.apk
-Radio_Indonesia_4.11.0.apk
 VLC_3.2.11.apk
 v5live.apk
 tvtap_2.5.apk
