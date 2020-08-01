@@ -47,6 +47,7 @@ cyberflix_3.2.2.apk
 kidyt.new.apk
 Popcorn_3.6.4.apk
 mobdro_2.1.64.apk
+Radio_Indonesia_4.11.0.apk
 ";
 
 userApp="
