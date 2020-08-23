@@ -26,22 +26,25 @@ ButtonMapper_v1.29.apk
 RadioIndonesia_v4.9.13.apk
 VLC_v3.1.7.apk
 AptoideTV_v5.0.3.apk
+SmartYouTubeTV_v6.17.702.apk
 ";
 
+#apkpure 3.17.11
 copyApk="
+smartyt_6.17.717.apk
 Perfect_Player_1.5.8.apk
-APKPure_3.17.9.apk
+APKPure_3.17.11.apk
 AptoideTV_5.1.1.apk
 Button_Mapper_1.40.apk
 Link2SD.apk
 Kodi_18.6.apk
 Netflix_latest.apk
 Octopus_5.3.5.apk
-Speedtest_4.5.6.apk
+Speedtest_4.5.11.apk
 Titanium_2016.apk
 UseeTV_GO_590.apk
 Viki_2.3.6.apk
-Viu_1.0.92.apk
+Viu_1.0.96.apk
 chrome.work.apk
 cyberflix_3.2.2.apk
 kidyt.new.apk
@@ -52,12 +55,12 @@ Radio_Indonesia_4.11.0.apk
 
 userApp="
 cloudTV.apk
-VLC_3.2.11.apk
+VLC_3.2.12.apk
 v5live.apk
 tvtap_2.5.apk
 NF21_3.3.apk
 nordVPN_4.12.5.apk
-freeMovies_3.1.apk
+movieXY_1.2.apk
 ZalTV_1.2.5.apk
 mkctv.apk
 ";
