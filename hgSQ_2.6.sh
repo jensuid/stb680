@@ -31,7 +31,7 @@ SmartYouTubeTV_v6.17.702.apk
 
 #apkpure 3.17.11
 copyApk="
-smartyt_6.17.717.apk
+smartyt_6.17.720.apk
 Perfect_Player_1.5.8.apk
 APKPure_3.17.11.apk
 AptoideTV_5.1.1.apk
