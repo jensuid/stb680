@@ -60,9 +60,10 @@ v5live.apk
 tvtap_2.5.apk
 NF21_3.3.apk
 nordVPN_4.12.5.apk
-movieXY_1.2.apk
+movieXY_1.4.apk
 ZalTV_1.2.5.apk
 mkctv.apk
+ViTV_119.apk
 ";
 appFirst="
 Perfect_Player_1.5.6.apk
