@@ -59,6 +59,7 @@ NF21_3.3.apk
 movieXY_1.4.apk
 mkctv.apk
 ViTV_119.apk
+Disneyplus_4.0.4.apk
 ";
 appFirst="
 Perfect_Player_1.5.6.apk
