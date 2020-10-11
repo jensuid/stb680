@@ -48,7 +48,7 @@ cyberflix_3.2.2.apk
 kidyt.new.apk
 Popcorn_3.6.4.apk
 mobdro_2.1.64.apk
-Radio_Indonesia_4.11.0.apk
+Radio_Indonesia_4.11.6.apk
 ";
 
 userApp="
@@ -57,7 +57,6 @@ VLC_3.2.12.apk
 v5live.apk
 tvtap_2.5.apk
 NF21_3.3.apk
-nordVPN_4.12.5.apk
 movieXY_1.4.apk
 mkctv.apk
 ViTV_119.apk
