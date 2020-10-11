@@ -44,7 +44,6 @@ UseeTV_GO_590.apk
 wetv.work.apk
 Viu_1.0.96.apk
 chrome.work.apk
-cyberflix_3.2.2.apk
 kidyt.new.apk
 Popcorn_3.6.4.apk
 mobdro_2.1.64.apk
