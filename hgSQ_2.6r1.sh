@@ -26,12 +26,13 @@ ButtonMapper_v1.29.apk
 RadioIndonesia_v4.9.13.apk
 VLC_v3.1.7.apk
 AptoideTV_v5.0.3.apk
+SmartYouTubeTV_v6.17.724.apk
 ";
 
 #apkpure 3.17.11
 copyApk="
 Perfect_Player_1.5.8.apk
-APKPure_3.17.11.apk
+APKPure_3.17.14.apk
 AptoideTV_5.1.1.apk
 Button_Mapper_1.40.apk
 Link2SD.apk
@@ -48,6 +49,7 @@ kidyt.new.apk
 Popcorn_3.6.4.apk
 mobdro_2.1.64.apk
 Radio_Indonesia_4.11.6.apk
+smartyt_6.17.728.apk
 ";
 
 userApp="
@@ -56,9 +58,8 @@ VLC_3.2.12.apk
 v5live.apk
 tvtap_2.5.apk
 NF21_3.3.apk
-movieXY_1.4.apk
+cinehub_2.2.4.apk
 mkctv.apk
-ViTV_119.apk
 Disneyplus_4.0.4.apk
 ";
 appFirst="
