@@ -41,7 +41,6 @@ Netflix_latest.apk
 Octopus_5.3.5.apk
 Speedtest_4.5.11.apk
 Titanium_2016.apk
-UseeTV_GO_590.apk
 wetv.work.apk
 Viu_1.0.96.apk
 chrome.work.apk
