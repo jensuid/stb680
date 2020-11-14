@@ -27,6 +27,7 @@ RadioIndonesia_v4.9.13.apk
 VLC_v3.1.7.apk
 AptoideTV_v5.0.3.apk
 SmartYouTubeTV_v6.17.724.apk
+ Vola_Sport_v6.7.0.apk
 ";
 
 #apkpure 3.17.11
@@ -48,7 +49,7 @@ kidyt.new.apk
 Popcorn_3.6.4.apk
 mobdro_2.1.64.apk
 Radio_Indonesia_4.11.6.apk
-smartyt_6.17.728.apk
+smartyt_6.17.730.apk
 ";
 
 userApp="
