@@ -29,6 +29,10 @@ AptoideTV_v5.0.3.apk
 SmartYouTubeTV_v6.17.724.apk
  Vola_Sport_v6.7.0.apk
  BoneSmartTV_v2.1.apk
+ VidioTV_v1.25.apk
+ MXPlayer_v1.25.6.apk
+ iFlix_v3.46.apk
+ DRM_Info_v1.1.2.apk
 ";
 
 #apkpure 3.17.11
@@ -36,27 +40,31 @@ copyApk="
 Perfect_Player_1.5.8.apk
 APKPure_3.17.14.apk
 AptoideTV_5.1.1.apk
-Button_Mapper_1.40.apk
+Button_Mapper_1.50.apk
 Link2SD.apk
 Kodi_18.6.apk
 Netflix_latest.apk
-Octopus_5.3.5.apk
+Octopus_5.5.3.apk
 Speedtest_4.5.11.apk
 Titanium_2016.apk
 wetv.work.apk
-Viu_1.0.96.apk
+Viu_Mobile_1.0.98.apk
 chrome.work.apk
 kidyt.new.apk
 Popcorn_3.6.4.apk
 mobdro_2.1.64.apk
-Radio_Indonesia_4.11.6.apk
+Radio_Indonesia_4.11.10.apk
 smartyt_6.17.730.apk
 boneTV_2.2.apk
+iflix_3.47.0.apk
+Vidio_1.34.1.apk
+MX_Player_1.31.3.apk
+DRM_Info_1.1.17.apk
 ";
 
 userApp="
 cloudTV.apk
-VLC_3.2.12.apk
+VLC_3.3.2.apk
 v5live.apk
 tvtap_2.5.apk
 NF21_3.3.apk
