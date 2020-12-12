@@ -48,7 +48,7 @@ Octopus_5.5.3.apk
 Speedtest_4.5.11.apk
 Titanium_2016.apk
 wetv.work.apk
-Viu_Mobile_1.0.98.apk
+Viu_Mobile_1.0.99.apk
 chrome.work.apk
 kidyt.new.apk
 Popcorn_3.6.4.apk
