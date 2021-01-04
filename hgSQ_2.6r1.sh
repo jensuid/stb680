@@ -25,21 +25,18 @@ SpeedtestbyOokla_v4.4.11.apk
 ButtonMapper_v1.29.apk
 RadioIndonesia_v4.9.13.apk
 VLC_v3.1.7.apk
-AptoideTV_v5.0.3.apk
 SmartYouTubeTV_v6.17.724.apk
- Vola_Sport_v6.7.0.apk
- BoneSmartTV_v2.1.apk
- VidioTV_v1.25.apk
- MXPlayer_v1.25.6.apk
- iFlix_v3.46.apk
- DRM_Info_v1.1.2.apk
+Vola_Sport_v6.7.0.apk
+VidioTV_v1.25.apk
+MXPlayer_v1.25.6.apk
+iFlix_v3.46.apk
+DRM_Info_v1.1.2.apk
 ";
 
 #apkpure 3.17.11
 copyApk="
 Perfect_Player_1.5.8.apk
 APKPure_3.17.14.apk
-AptoideTV_5.1.1.apk
 Button_Mapper_1.50.apk
 Link2SD.apk
 Kodi_18.6.apk
@@ -55,7 +52,6 @@ Popcorn_3.6.4.apk
 mobdro_2.1.64.apk
 Radio_Indonesia_4.11.10.apk
 smartyt_6.17.730.apk
-boneTV_2.2.apk
 iflix_3.47.0.apk
 Vidio_1.34.1.apk
 MX_Player_1.31.3.apk
