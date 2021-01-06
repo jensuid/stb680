@@ -36,7 +36,7 @@ DRM_Info_v1.1.2.apk
 #apkpure 3.17.11
 copyApk="
 Perfect_Player_1.5.8.apk
-APKPure_3.17.14.apk
+APKPure_3.17.15.apk
 Button_Mapper_1.50.apk
 Link2SD.apk
 Kodi_18.6.apk
@@ -53,7 +53,7 @@ mobdro_2.1.64.apk
 Radio_Indonesia_4.11.10.apk
 smartyt_6.17.730.apk
 iflix_3.47.0.apk
-Vidio_1.34.1.apk
+Vidio_1.35.0.apk
 MX_Player_1.31.3.apk
 DRM_Info_1.1.17.apk
 ";
