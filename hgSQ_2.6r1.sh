@@ -62,7 +62,6 @@ DRM_Info_1.1.17.apk
 userApp="
 cloudTV.apk
 VLC_3.3.2.apk
-v5live.apk
 tvtap_2.5.apk
 NF21_3.3.apk
 cinehub_2.2.6.apk
