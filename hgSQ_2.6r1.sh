@@ -43,7 +43,7 @@ Link2SD.apk
 Kodi_18.6.apk
 Netflix_latest.apk
 Octopus_5.5.3.apk
-Speedtest_4.5.11.apk
+Speedtest_4.5.28.apk
 Titanium_2016.apk
 wetv.work.apk
 Viu_Mobile_1.0.99.apk
@@ -106,7 +106,7 @@ MNCNow=com.zte.iptvclient.android.idmnc/PHONE
 MNCNow=com.zte.iptvclient.android.idmnc/LOCATION
 MNCNow=com.zte.iptvclient.android.idmnc/STORAGE
 AptoideTV=cm.aptoidetv.pt/STORAGE
-NF21=id.nf21.rbn1/STORAGE
+NF21=id.nf21.rbn1/STORAGEaji
 NF21=id.nf21.rbn1/LOCATION
 NF21=id.nf21.rbn1/CAMERA
 ";
