@@ -36,16 +36,16 @@ LiveNetTV_v4.7.4.apk
 
 #apkpure 3.17.11
 copyApk="
-Perfect_Player_1.5.8.apk
-APKPure_3.17.16.apk
+Perfect_Player_1.5.9.1.apk
+apkpure_3.17.16.apk
 Button_Mapper_1.50.apk
 Link2SD.apk
 Kodi_18.6.apk
 Netflix_latest.apk
-Octopus_5.5.3.apk
-Speedtest_4.5.28.apk
+Octopus_6.0.7.apk
+Speedtest_4.5.32.apk
 Titanium_2016.apk
-wetv.work.apk
+WeTV_1.4.0.4.apk
 Viu_Mobile_1.0.99.apk
 chrome.work.apk
 kidyt.new.apk
@@ -53,19 +53,19 @@ Popcorn_3.6.4.apk
 mobdro_2.1.64.apk
 smartyt_6.17.730.apk
 iflix_3.47.0.apk
-Vidio_1.36.5.apk
-MX_Player_1.31.3.apk
+Vidio_1.37.4.apk
+MX_Player_1.34.4.apk
 DRM_Info_1.1.17.apk
 ";
 
 userApp="
 cloudTV.apk
-VLC_3.3.2.apk
+VLC_3.3.4.apk
 tvtap_2.5.apk
 NF21_3.3.apk
 cinehub_2.2.6.apk
 LiveNetTV_4.8.0.apk
-mkctv.apk
+MkctvGo.apk
 Disneyplus_4.0.4.apk
 ";
 appFirst="
