@@ -58,7 +58,7 @@ iflix_3.47.0.apk
 Vidio_1.39.1.apk
 MX_Player_1.34.5.apk
 DRM_Info_1.1.7.21.apk
-redboxtv_2.0.apk
+redboxtv_2.1.apk
 ";
 
 userApp="
