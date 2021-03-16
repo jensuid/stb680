@@ -32,12 +32,14 @@ MXPlayer_v1.25.6.apk
 iFlix_v3.46.apk
 DRM_Info_v1.1.2.apk
 LiveNetTV_v4.7.4.apk
+BoneSmartTV_v2.2.apk
+RedBoxTV_v1.9.apk
 ";
 
 #apkpure 3.17.11
 copyApk="
-Perfect_Player_1.5.9.1.apk
-apkpure_3.17.16.apk
+Perfect_Player_1.5.9.2.apk
+apkpure_3.17.17.apk
 Button_Mapper_1.50.apk
 Link2SD.apk
 Kodi_18.6.apk
@@ -53,18 +55,19 @@ Popcorn_3.6.4.apk
 mobdro_2.1.64.apk
 smartyt_6.17.730.apk
 iflix_3.47.0.apk
-Vidio_1.37.4.apk
-MX_Player_1.34.4.apk
-DRM_Info_1.1.17.apk
+Vidio_1.39.1.apk
+MX_Player_1.34.5.apk
+DRM_Info_1.1.7.21.apk
+redboxtv_2.0.apk
 ";
 
 userApp="
 cloudTV.apk
 VLC_3.3.4.apk
-tvtap_2.5.apk
+tvtapfirestick3.1.apk
 NF21_3.3.apk
 cinehub_2.2.6.apk
-LiveNetTV_4.8.0.apk
+LiveNetTV_4.8.2.apk
 MkctvGo.apk
 Disneyplus_4.0.4.apk
 ";
