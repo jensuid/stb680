@@ -72,7 +72,6 @@ MkctvGo.apk
 Disneyplus_4.0.4.apk
 ";
 appFirst="
-Perfect_Player_1.5.6.apk
 ";
 
 delPKG="
