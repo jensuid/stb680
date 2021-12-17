@@ -1,0 +1,39 @@
+#! /system/bin/sh
+
+#script install mola
+
+
+url=bit.ly/apk_molatv
+# baiknya dicheck link exist gak
+wget --spider $url
+if [[ $? -eq 0 ]]; then 
+# download file
+#file=$(mktemp -u)
+file=/sdcard/Download/temp_apkmola
+wget -O $file $url
+else
+  echo "Link $url  tidak ada"
+  echo "Periksa kembali penulisan link dan ulangi lagi"
+  exit 1
+fi
+
+#check package 
+#pkg=$(/data/local/tmp/aapt d badging $file | awk -F"'" '/package: name=/{print $2}')
+pkg=com.molatvbox.public
+#echo " pkg : $pkg"
+exist=${#$(pm list package | grep "$pkg")}
+echo "exist : $exist"
+# if exist uninstall
+if [[  $exist -ne 0 ]]; then
+   echo "Aplikasi sudah terinstall "
+   echo "Proses uinstall ..." 
+   pm uninstall $pkg
+fi
+
+#install apk
+   echo "Proses install ...."
+   pm install $file
+
+#clean up
+[[ -n $file ]] && rm $file
+echo "Proses selesai"
